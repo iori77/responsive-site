@@ -1,0 +1,43 @@
+#photo {
+  background-image: url("./images/image_work_human.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 100%; }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.box {
+  width: 30%;
+  background-color: #ffa500;
+  padding: 20px; }
+
+h2 {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold; }
+
+footer h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 30px; }
+
+.kadomaru {
+  background-color: #999999;
+  border-radius: 5px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; }
+    .container .box {
+      width: 90%; } }
+
+/*# sourceMappingURL=style.css.map */
