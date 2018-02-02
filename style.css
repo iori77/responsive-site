@@ -14,7 +14,7 @@
 .box {
   width: 30%;
   background-color: #ffa500;
-  padding: 20px; }
+  padding: 20px 10px 20px 10px; }
 
 h2 {
   text-align: center;
@@ -43,5 +43,7 @@ footer h3 {
 @media (max-width: 768px) {
   #photo {
     height: 250px; } }
+.profile {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
